@@ -694,3 +694,41 @@ mentors .mentor p {
         margin-left: 30px;
     }
 }
+
+
+/* ***********************mentor.html*********************** */
+
+.specific-mentor {
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    /* box-shadow: 0px 10px 78px black; */
+}
+
+.specific-mentor img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#request-session-btn {
+    height: 35px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: #212529;
+    color: #fbb117;
+    cursor: pointer;
+}
+
+#request-session-btn:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+    .mentors .mentor {
+        width: 93%;
+    }
+}
