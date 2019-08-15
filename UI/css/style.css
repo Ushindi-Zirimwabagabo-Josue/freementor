@@ -611,3 +611,86 @@
         font-size: 13px;
     }
 }
+
+
+/*********************** mentors.html **************/
+
+.title {
+    /* border: 1px solid; */
+    margin: 20px 0;
+    text-align: center;
+}
+
+.mentors {
+    /* border: 1px solid; */
+    padding-left: 18px;
+    /* background: red */
+    /* background: url(images/1_n5WXtY2XqqFEMsVRofbjUA.jpeg);
+  background-size: cover; */
+    /* background: url(images/96490584-training-with-design-mentor-two-web-designers-discussing-new-responsive-webdesign-.jpg) no-repeat; */
+}
+
+.mentors .mentor {
+    /* border: 1px solid; */
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    /* color: rgb(161, 158, 158); */
+    margin: 20px 8px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* box-shadow: 0px 10px 78px rgb(243, 243, 243); */
+}
+
+mentors .mentor p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-page #user-page-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .mentors {
+        /* padding-left: 16px; */
+        padding-left: 1.7%;
+    }
+    .mentors .mentor {
+        width: 45%;
+        /* margin: 20px 16px; */
+        margin: 20px 1.9%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .mentors .mentor {
+        width: 80%;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    #user-page-title {
+        font-size: 20px;
+    }
+    .title h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .mentors .mentor {
+        width: 80%;
+        margin-left: 30px;
+    }
+}
