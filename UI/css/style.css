@@ -564,13 +564,6 @@
     color: #fbb117;
 }
 
-@media screen and (max-width: 769px) {
-    /* **********************signin.html********************* */
-    .signin-title-div {
-        width: 57.5%;
-    }
-}
-
 @media screen and (max-width: 426px) {
     /* *********************signin.html***************** */
     .signin-title-div {
