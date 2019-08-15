@@ -852,3 +852,111 @@ td #make-mentor-btn:hover {
         padding: 8px;
     }
 }
+
+
+/* *******************************requests.html*************************** */
+
+.requests {
+    background: url(../images/Mentorship-e1499032175833.png) center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 1.5cm;
+}
+
+.requests h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.request {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    width: 45%;
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.request h3 {
+    margin-left: 20px;
+}
+
+.requests ul {
+    float: right;
+}
+
+#accept-request {
+    display: inline;
+    margin-right: 20px;
+}
+
+#decline-request {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul button {
+    height: 30px;
+    width: 100px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#accept-request-btn {
+    background-color: rgb(165, 162, 162);
+}
+
+#accept-request-btn:hover {
+    background-color: green;
+    color: #fff;
+}
+
+#decline-request-btn {
+    background-color: rgb(165, 162, 162);
+}
+
+#decline-request-btn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    .request {
+        width: 40%;
+        margin-left: 55px;
+    }
+    #accept-request {
+        display: block;
+        margin-bottom: 20px;
+    }
+    #decline-request {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .request {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .request {
+        width: 80%;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .request {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .request {
+        margin-left: 30px;
+    }
+}
