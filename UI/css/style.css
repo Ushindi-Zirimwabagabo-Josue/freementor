@@ -732,3 +732,123 @@ mentors .mentor p {
         width: 93%;
     }
 }
+
+
+/* ***************************admin.html************************************* */
+
+.signin-section h3 {
+    text-align: center;
+}
+
+.admin-logo {
+    /* border: 1px solid; */
+    float: left;
+    line-height: 70px;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.admin-logo-small {
+    display: none;
+}
+
+.users h2 {
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 80px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background: #cecece;
+}
+
+tr:nth-child(odd) {
+    background: #999999;
+}
+
+td #make-mentor-btn {
+    /* float: right; */
+    /* margin: 10px; */
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fbb117;
+    background-color: #212529;
+}
+
+td #make-mentor-btn:hover {
+    background-color: black;
+    border: 2px solid #fbb117;
+    color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    .mentors {
+        /* padding-left: 16px; */
+        padding-left: 1.7%;
+    }
+    .admin-links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    table {
+        width: 90%;
+    }
+    td #make-mentor-btn {
+        width: 50px;
+    }
+    th,
+    td {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    td #make-mentor-btn {
+        width: 50px;
+    }
+    th,
+    td {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .admin-logo-small {
+        display: block;
+        color: #fff;
+        float: left;
+        line-height: 70px;
+        margin-left: 10px;
+    }
+    .admin-logo {
+        display: none;
+    }
+    .menu-toggle {
+        margin-right: 10px;
+    }
+    td #make-mentor-btn {
+        width: 50px;
+    }
+    th,
+    td {
+        padding: 8px;
+    }
+}
