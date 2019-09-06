@@ -40,6 +40,29 @@ class UserValidations {
       });
     }
   }
+
+  /**
+  * Login validation
+  * @param {object} req
+  * @param {object} res
+  * @param {object} next
+  */
+  static validateSignin(req, res, next) {
+    try {
+      req.body.email = req.body.email.trim();
+      req.body.password = req.body.password.trim();
+
+      if (!email.test(req.body.email)) throw new Error('Email is incorrect');
+      if ((req.body.password).length < 6) throw new Error('Password must be at least 6 characters');
+
+      next();
+    } catch (err) {
+      res.status(400).json({
+        status: 400,
+        error: err.message,
+      });
+    }
+  }
 }
 
 export default UserValidations;
